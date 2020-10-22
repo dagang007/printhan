@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+
+// application插件专用
+//mainClassName = 'zhc.java.Entry'
+
+jar {
+  manifest {
+    attributes(
+      'Main-Class': 'zhc.java.Entry'
+    )
+  }
+}
+
